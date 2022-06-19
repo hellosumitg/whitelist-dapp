@@ -23,8 +23,8 @@ Hardhat is an Ethereum development environment and framework designed for full s
  - First, we need to create a `whitelist-dapp` folder where the Hardhat project and our Next.js app will later go
  - Open up a terminal and execute these commands
   ```bash
-  mkdir Whitelist-Dapp
-  cd Whitelist-Dapp
+  mkdir whitelist-dapp
+  cd whitelist-dapp
   ```
  - Then, in Whitelist-Daap folder, we will set up Hardhat project 
   ```bash
@@ -93,12 +93,12 @@ yarn add @nomiclabs/hardhat-waffle ethereum-waffle chai @nomiclabs/hardhat-ether
 - First, we will need to create a new `next` app and our folder structure should look something like
 
   ```
-  - Whitelist-Dapp
+  - whitelist-dapp
       - hardhat
       - next-app
   ```
 
-- To create this `next-app`, in the terminal point to Whitelist-Dapp folder and type
+- To create this `next-app`, in the terminal point to whitelist-dapp folder and type
 
   ```bash
   npx create-next-app@latest
