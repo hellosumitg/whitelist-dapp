@@ -172,3 +172,5 @@ We will now deploy our dApp, so that everyone can see our website.
 - Click `Edit` next to `Root Directory` and set it to `next-app`
 - Click `Deploy`
 - Now we can see our deployed website by going to our dashboard, selecting our project, and copying the URL from there!
+
+Special thanks to team@LearnWeb3DAO
