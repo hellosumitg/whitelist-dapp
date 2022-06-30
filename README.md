@@ -175,4 +175,4 @@ We will now deploy our dApp, so that everyone can see our website.
 
 You can check my live website here :- [whitelist-dapp](https://whitelist-dapp-sumitdevtech.vercel.app/)
 
-Special thanks to team@LearnWeb3DAO
+Special thanks 🙏🏻 to team@LearnWeb3DAO 😇 
