@@ -173,6 +173,6 @@ We will now deploy our dApp, so that everyone can see our website.
 - Click `Deploy`
 - Now we can see our deployed website by going to our dashboard, selecting our project, and copying the URL from there!
 
-You can check my live website here :- [whitelist-dapp](https://whitelist-dapp-sumitdevtech.vercel.app/)
+You can check my live website here :- [whitelist-dapp](https://whitelist-dapp-hellosumitg.vercel.app/)
 
 Special thanks 🙏🏻 to team@LearnWeb3DAO 😇 
