@@ -61,11 +61,11 @@ yarn add @nomiclabs/hardhat-waffle ethereum-waffle chai @nomiclabs/hardhat-ether
 
 - Start by creating a new file inside the `contracts` directory called `Whitelist.sol` as shown above... in the repo.
 
-- Lets deploy the contract to `rinkeby` or anyother network of our choice.Create a new file named `deploy.js` under the `scripts` folder
+- Lets deploy the contract to `goerli` or anyother network of our choice.Create a new file named `deploy.js` under the `scripts` folder
 
 - Now we will write some code to deploy the contract in `deploy.js` file as shown above... in the repo.
 
-- Now create a `.env` file in the `hardhat` folder and add the following lines, use the instructions in the comments to get the Alchemy API Key URL and RINKEBY Private Key. Make sure that the account from which we get our rinkeby private key is funded with Rinkeby Ether as shown above... in the repo.
+- Now create a `.env` file in the `hardhat` folder and add the following lines, use the instructions in the comments to get the Alchemy API Key URL and GOERLI Private Key. Make sure that the account from which we get our goerli private key is funded with Goerli Ether as shown above... in the repo.
 
 - Now we will install `dotenv` package to be able to import the env file and use it in our config. Open up a terminal pointing at `hardhat` directory and execute this command
   ```bash
@@ -73,7 +73,7 @@ yarn add @nomiclabs/hardhat-waffle ethereum-waffle chai @nomiclabs/hardhat-ether
   or 
   yarn add dotenv
   ```
-- Now open the hardhat.config.js file, we would add the `rinkeby` network here so that we can deploy our contract to rinkeby. Replace all the lines in the `hardhar.config.js` file as shown above... in the repo.
+- Now open the hardhat.config.js file, we would add the `goerli` network here so that we can deploy our contract to goerli. Replace all the lines in the `hardhar.config.js` file as shown above... in the repo.
 
 - Compile the contract, open up a terminal pointing at `hardhat` directory and execute this command
 
@@ -83,7 +83,7 @@ yarn add @nomiclabs/hardhat-waffle ethereum-waffle chai @nomiclabs/hardhat-ether
   
 - To deploy, open up a terminal pointing at `hardhat` directory and execute this command
   ```bash
-  npx hardhat run scripts/deploy.js --network rinkeby
+  npx hardhat run scripts/deploy.js --network goerli
   ```
 - Save the Whitelist Contract Address that was printed on our terminal in the notepad, we would need it later.
 
